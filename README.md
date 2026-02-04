@@ -8,18 +8,18 @@ Simple static website for BookVentures iOS app, including:
 
 ### 1. Create a new GitHub repository
 - Go to github.com → New repository
-- Name it `bookverse-site` (or whatever you prefer)
+- Name it `bookventures-site` (or whatever you prefer)
 - Make it **Public** (required for free GitHub Pages)
 - Don't initialize with README (we have files already)
 
 ### 2. Push this folder to GitHub
 ```bash
-cd bookverse-site
+cd bookventures-site
 git init
 git add .
 git commit -m "Initial commit - BookVentures website"
 git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/bookverse-site.git
+git remote add origin https://github.com/YOUR_USERNAME/bookventures-site.git
 git push -u origin main
 ```
 
@@ -33,28 +33,28 @@ git push -u origin main
 ### 4. Access your site
 After a few minutes, your site will be live at:
 ```
-https://YOUR_USERNAME.github.io/bookverse-site/
+https://YOUR_USERNAME.github.io/bookventures-site/
 ```
 
 Privacy policy URL:
 ```
-https://YOUR_USERNAME.github.io/bookverse-site/privacy/
+https://YOUR_USERNAME.github.io/bookventures-site/privacy/
 ```
 
 ## Using a Custom Domain (Optional)
 
-If you own a domain like `bookverse.app`:
+If you own a domain like `bookventures.app`:
 
 ### 1. Add CNAME file
 Create a file called `CNAME` (no extension) with your domain:
 ```
-bookverse.app
+bookventures.app
 ```
 
 ### 2. Configure DNS
 Add these records at your domain registrar:
 
-**For apex domain (bookverse.app):**
+**For apex domain (bookventures.app):**
 ```
 A     @     185.199.108.153
 A     @     185.199.109.153
@@ -73,7 +73,7 @@ CNAME   www   YOUR_USERNAME.github.io
 ## File Structure
 
 ```
-bookverse-site/
+bookventures-site/
 ├── index.html          # Landing page
 ├── style.css           # Shared styles
 ├── privacy/
@@ -100,10 +100,10 @@ Changes go live automatically within a few minutes.
 
 When submitting to the App Store, use this URL for your Privacy Policy:
 ```
-https://YOUR_USERNAME.github.io/bookverse-site/privacy/
+https://YOUR_USERNAME.github.io/bookventures-site/privacy/
 ```
 
 Or with custom domain:
 ```
-https://bookverse.app/privacy/
+https://bookventures.app/privacy/
 ```
